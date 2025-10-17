@@ -83,6 +83,8 @@ func initResource() *sdkresource.Resource {
 	return resource
 }
 
+// hello 
+
 func initTracerProvider() *sdktrace.TracerProvider {
 	ctx := context.Background()
 
