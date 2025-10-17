@@ -182,6 +182,8 @@ func main() {
 		logger.Error(fmt.Sprintf("TCP Listen: %v", err))
 	}
 
+	// hello
+
 	srv := grpc.NewServer(
 		grpc.StatsHandler(otelgrpc.NewServerHandler()),
 	)
